@@ -1,0 +1,40 @@
+Last Lecture Agenda
+Conducted by Mayur Sir 
+
+Today's Lecture Agenda
+Sumit Raokhande - Trainer
+Git hub Repo Link 
+https://github.com/Javabykiran-Angular/943_Html_CSS_Js.git
+1 Introduction of CSS 
+	- Cascding style Sheet 
+	- It is used to Manipulate its Behaviour of particular Html Tag 
+	- To Make Application Attractive
+	- To make Application Responsive.
+	
+2 Types of CSS 
+	1 Inline CSS 
+	 - U can apply css there itself on that particular Tag 
+	 
+	2 Internal CSS 
+		- U can apply Css for multiple html element 
+		- It is given a specific tag => <style> </style>
+		
+	3 External CSS 
+		- we can link css file to particular html Page 
+4 How to apply CSS to Html Tag 
+	1 using Tag name 
+	2 Using id => 
+		- Id is attribute 
+		- It is given  by html 
+		- It is global attribute
+		- It hold a refernce /Object/handle of that particular element 
+	3 Using Class name 
+5 CSS Selectors & Properties
+	1 tag name 
+	2 # 
+	3 . 
+summary & Interview Questions
+1 What is CSS 
+2 Why We use CSS
+3 Explain Types of CSS 
+4 Explain Different selectors of CSS 
