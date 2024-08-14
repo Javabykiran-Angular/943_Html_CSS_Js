@@ -1,0 +1,40 @@
+Last Lecture Agenda
+1 Font Properties
+	- font-family
+	- font-size
+	- font-weigth
+	- font-style
+2 margin
+3 padding
+	<div>
+	....
+	</div>
+	style.css 
+	.myclass{
+		margin:10px;
+		padding:10px;
+	}
+4 Image Border
+	- opacity => 0 to 1
+	- transform : scale(1.2);
+	
+#myimg:hover{
+	opacity:1
+	transform : scale(1.2);
+}
+	
+3 pseudo classess
+
+summary & Interview Questions
+1 Explain Box Model in CSS?
+2 Which font properties are used?
+
+
+Today's Lecture Agenda
+1 Apply css to table 
+
+summary & Interview Questions
+1 How to apply CSS to Table tags & tr tags 
+2 Which selector is avialable in css ?
+	
+	

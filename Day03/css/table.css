@@ -1,0 +1,105 @@
+table{
+    border: 1px solid;
+    border-collapse: collapse;
+    text-align: center;
+    background: pink;
+    width: 100%;
+}
+.main{
+    /* left: 50px; */
+    /* transform: translate(40%,40%); */
+
+    width: min(900px,100%-3rem);
+}
+caption{
+    padding: 1rem;
+    text-transform: uppercase;
+    border: 2px solid;
+    background-color: darkgray;
+}
+tr,td,th{
+    border: 1px solid;
+}
+th{
+    background-color: black;
+    color: white;
+}
+tr:nth-of-type(2n){
+    background-color: aqua;
+}
+th,td{
+    padding: 1rem;
+}
+
+
+@media(max-width:650px){
+    th,td{
+        text-align: left;
+    }
+    th{
+        display: none;
+    }
+    td{
+        /* display: block; */
+        
+        padding: 0.5rem 1rem;
+        display: grid;
+        gap: 0.5rem;
+        grid-template-columns: 15ch auto;
+    }
+    td::before{
+       
+        font-weight: 700;
+        text-transform: uppercase;       
+                
+    }
+
+    td:first-child{
+        padding-top: 2rem;
+        margin-top: 5px;      
+       
+    }
+    td:last-child{
+        padding-bottom: 2rem;     
+        
+    }
+
+    td:nth-of-type(1)::before{
+        content: "Sr no";
+        margin-right: 0.5rem;
+    }
+    td:nth-of-type(2)::before{
+        content: "Product name";
+        margin-right: 0.5rem;
+    }
+    td:nth-of-type(3)::before{
+        content: "Product Price";
+        margin-right: 0.5rem;
+    }
+    td:nth-of-type(4)::before{
+        content: "Product Quantity";
+        margin-right: 0.5rem;
+    }      
+
+}
+
+.mybtn{
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1.5s;
+}
+.redBtn{
+    border: 2px solid red;
+}
+.greenBtn{
+    border: 2px solid green;
+}
+.redBtn:hover{
+    background-color: red;
+    color: white;
+}
+.greenBtn:hover{
+    background-color: green;
+    color: white;
+}
