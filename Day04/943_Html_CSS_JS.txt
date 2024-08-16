@@ -1,0 +1,79 @@
+Last Lecture Agenda
+1 Apply css to table 
+	
+	<table> 
+		<captions>....</captions>
+		<thead>
+			<tr>
+				<th>sgfa</th>
+				...
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>...</td>
+			</tr>
+			<tr>
+				<td>...</td>
+			</tr>
+			<tr>
+				<td>...</td>
+			</tr>
+		</tbody>
+		
+	
+	</table>
+	
+	.css 
+	table{
+		text-allign:centre;
+		boder-collapse:collapse;
+		...
+		
+	}
+	tr,td,th{
+		border:1px solid;
+	}
+	thead{
+	....
+	}
+	tr:nth-of-type(2n){
+		...
+	}
+@Media(max-width:650px){
+	td:before{
+		content:"Sr NO";
+		
+	}
+}
+	
+
+summary & Interview Questions
+1 How to apply CSS to Table tags & tr tags 
+2 Which selector is avialable in css ?
+	
+
+Today's Lecture Agenda
+1 Introduction of JS 
+	- It is client side scripting lang.
+	- It is used for validation Perfomance,Action 
+	
+2 Variables & data Types 
+	- Use of keywords
+		1 var 
+		2 let 
+		3 const 
+	- follow the rules of identifier
+	
+		
+3 control flow statement
+		Sequential statement
+	- if,if-else ,break,continue,switch 
+4 var vs let vs const 
+5 functions
+
+summary & Interview Questions
+1 How to link JS in html file 
+2 explain diffrent type of variables
+3 Which type of sequential statement present in JS?
+4 Explain the diffrence between var vs let vs const
