@@ -1,0 +1,67 @@
+Last Lecture Agenda
+1 Introduction of JS 
+	- It is client side scripting lang.
+	- It is used for validation Perfomance,Action 
+	
+2 Variables & data Types 
+	- Use of keywords
+		1 var 
+		2 let 
+		3 const 
+	- follow the rules of identifier
+	var a1
+	number,string,boolean,any,void,null & undefined
+	var a=10;
+	console.log("value of a"+a)
+	console.log(`value of a ${a} `);
+	
+		
+3 control flow statement
+		Sequential statement
+	- if,if-else ,break,continue,switch 
+		switch(choice){
+			case 1: ...
+					break;
+			..
+			default: ...
+					break;
+		}
+		while(count!=0){
+		....
+		}
+		for(var i=0;i<4;i++){
+				...
+		}
+4 var vs let vs const 
+	let => within a nreaset block {}
+	const pi=3.14;
+	
+5 functions
+	function without parameter & without return type 
+	
+	function add1(){
+	....
+	}
+	
+	add1();
+	
+
+summary & Interview Questions
+1 How to link JS in html file 
+2 explain diffrent type of variables
+3 Which type of sequential statement present in JS?
+4 Explain the diffrence between var vs let vs const
+	
+
+Today's Lecture Agenda
+1 functions
+2 Anonymous functions
+3 fat arrow functions
+4 Basics of array
+
+summary & Interview Questions
+1 Explain Types of User defined functions
+2 What is Anonymous functions?
+3 What is fat arrow functions?
+4 How to create array in Js?
+5 why we use fat arrow functions?
