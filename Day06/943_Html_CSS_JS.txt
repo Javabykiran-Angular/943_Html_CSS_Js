@@ -1,0 +1,74 @@
+Last Lecture Agenda
+1 functions
+	func without parameter & without return type 
+	function add1(){
+	....
+	}
+	add1()
+	func without parameter & with return type 
+	function add2(){
+		return (8+8);
+	}
+	let res=add2();
+	...
+	func with parameter & without return type 
+	function add3(a,b){
+		....
+	}
+	add3(10,2);
+	
+	func with parameter & with return type 
+	function add4(a,b){
+		return (a+b);
+	}
+	let res=add4(10,2);
+	...
+	
+2 Anonymous functions
+	let temp1=function (){
+		...
+	}
+	temp1();
+	let temp2=function (a,b){
+		return (a+b)
+	}
+	let res=temp2(10,2);
+	
+3 fat arrow functions
+	let temp3=()=>{
+	...
+	}
+	temp3();
+	let temp4=(a,b)=>{
+		return (a+b)
+	}
+	
+	let res= temp4(10,2);
+	...
+4 Basics of array
+	let a=[4,5,6];
+	let a=[];
+	
+
+summary & Interview Questions
+1 Explain Types of User defined functions
+2 What is Anonymous functions?
+3 What is fat arrow functions?
+4 How to create array in Js?
+5 why we use fat arrow functions?
+	
+
+Today's Lecture Agenda
+1 Array Methods
+	push,pop
+	splice , map,join,forEach
+2 DOM Manipulation
+	 - Access a data/modify the data 
+	 - What is DOM 
+	 - DOM Structure
+	 - Event onClick=> EventHandler
+
+summary & Interview Questions
+1 Which are array methods in jS?
+2 What is DOM?
+3 How to access DOM Element?
