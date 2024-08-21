@@ -1,0 +1,52 @@
+Last Lecture Agenda
+1 Array Methods
+	push,pop => LIFO 
+	a.push(12);
+	let res=a.pop();
+	splice 
+		a.splice(2,0,45);
+		a.splice(3,1);
+		
+	map
+	let squrarr=	a.map((value)=>{
+			return (value*value)
+		})
+		
+	join
+		a.join(" ")
+	forEach
+		a.forEach((value,i,arr)=>{
+			....
+		})
+2 DOM Manipulation
+	 - Access a data/modify the data 
+	 - What is DOM 
+		
+	 - DOM Structure
+	 - Event onClick=> EventHandler
+	 <input id="myinput">
+		<button onclick="onSend()">
+		.jS
+		function onSend(){
+			let inputobj= document.getElementById("myinput");
+			inputobj.value 
+			
+		}
+
+summary & Interview Questions
+1 Which are array methods in jS?
+2 What is DOM?
+3 How to access DOM Element?
+	
+
+Today's Lecture Agenda
+1 Popup Boxes => It is called window function 
+	 1 alert box
+	 2 prompt box 
+	 3 confirm doalog box 
+	 
+2 DOM Manipulation - Simple Real time Example
+	
+summary & Interview Questions
+1 What is DOM Manipulation?
+2 How to use Popup Boxes?
