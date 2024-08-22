@@ -1,0 +1,51 @@
+Last Lecture Agenda
+1 Popup Boxes => It is called window function 
+	 1 alert box
+	 2 prompt box 
+	 3 confirm dialog box 
+	 
+	 <button onclick="onClick()" >Alert
+	 
+	 .js 
+	 function onClick(){
+		alert("..")
+	 }
+	 
+	 function onClick1(){
+		let res= prompt("Enter the Username::")
+	 }
+	 
+	 function onClick1(){
+		let res= confirm("....")
+		...
+	 }
+	 
+	 
+	 
+2 DOM Manipulation - Simple Real time Example
+
+	<input id="num1">
+	<input id="num2">
+	<button onclick="onAddition()" >
+	
+	.js
+	onAddition(){
+		let num1=document.getElementById("num1")
+		let n1=parseInt(num1.value);
+		let res=n1+n2
+		let div=document.getElementById("mydiv");
+		div.innerHTML="Addition  is "+res;
+		
+	}
+	
+summary & Interview Questions
+1 What is DOM Manipulation?
+2 How to use Popup Boxes?
+
+
+Today's Lecture Agenda
+1 JS Validation
+	- only cross check the end user enter appropriate data 
+
+summary & Interview Questions
+1 How to perform Client side validation?
