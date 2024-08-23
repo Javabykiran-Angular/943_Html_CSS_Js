@@ -1,0 +1,42 @@
+Last Lecture Agenda
+1 JS Validation
+	- only cross check the end user enter appropriate data 
+	<form onSubmit="return validation()" >
+		
+		<input id="username">
+		
+		<span id="userspan">
+			
+		<input type="password" id="password">
+		
+		<span id="userspan">
+		<input type="password" id="password">
+		
+		<span id="userspan">
+		
+	</form>
+	
+	/.js 
+	function validation(){
+		let username=...
+		if(username.trim()==''){
+		...
+		return false 
+		}else if(password!=confirmpwd){
+		....
+		}
+		else{
+			return true;
+		}
+		
+	}
+
+summary & Interview Questions
+1 How to perform Client side validation?
+
+
+Today's Lecture Agenda
+1 JS Validation Continue
+
+summary & Interview Questions
+1 How to perform Client side validation?

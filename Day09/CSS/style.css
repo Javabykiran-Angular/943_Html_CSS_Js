@@ -1,0 +1,15 @@
+input{
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+
+}
+button{
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+span{
+    color: red;
+    font-weight: bold;
+}
